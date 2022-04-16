@@ -1,66 +1,102 @@
-body{
+body {
     background-color: var(--background-color);
     color: var(--secondary-text-color);
+    
 }
 
-:root{
-    --primary-text-color:#ffffff;
-    --secondary-text-color:#757575;
-    --title-text-color:#212121;
+:root {
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #757575;
+    --title-text-color: #212121;
     --accent-color: #2196F3;
     --background-color: #E5E5E5;
-    --secondary-background-color:#2F303A;
-    --our-team-color:#F5F4FA;
-
-
-
+    --secondary-background-color: #2F303A;
+    --our-team-color: #F5F4FA;
 }
-.logo{
+
+.logo {
     color: var(--title-text-color);
 }
-.logo-web{
+
+.logo-web {
     color: var(--accent-color);
 }
-.title{
+
+.title {
     color: var(--title-text-color);
 }
 
-.section-title{
+.site-nav .title.current {
+    color: var(--accent-color);
+}
+
+.section-title {
     color: var(--primary-text-color);
 }
 
-.section-hero{
+.section-hero {
     background-color: var(--secondary-background-color);
 }
-.accent-button{
+
+.accent-button {
     background-color: var(--accent-color);
     color: var(--primary-text-color);
+    cursor: pointer;
 }
-.section-our-team{
+
+.section-our-team {
     background-color: var(--our-team-color);
 }
-.list{
+
+.list {
     list-style: none;
 }
-.contact a{
+
+.contact a {
     color: var(--secondary-text-color);
 }
-.contact a:hover, .contact a:focus {
+
+.contact a:hover,
+.contact a:focus {
     color: var(--accent-color);
 }
-.site-nav .title:hover, .site-nav .title:focus{
+
+.site-nav .title:hover,
+.site-nav .title:focus {
     color: var(--accent-color);
 }
-.contact-footer a{
+
+.contact-footer a {
     color: var(--primary-text-color);
     opacity: 0.6;
 }
 
-.contact-footer a:hover,.contact-footer a:focus{
+.contact-footer a:hover,
+.contact-footer a:focus {
     color: var(--accent-color);
     opacity: 0.6;
 }
 
-.footer-back{
-background-color: var(--secondary-background-color);
+.footer-back {
+    background-color: var(--secondary-background-color);
+}
+
+.footer-back a {
+    color: var(--primary-text-color);
+}
+
+.footer-back .contacts {
+    opacity: 0.6;
+}
+
+.our-features {
+    display: none;
+}
+
+.portfolio-content.hide{
+    display: none;
+}
+
+.header-class {
+    background-color: var(--primary-text-color);
 }

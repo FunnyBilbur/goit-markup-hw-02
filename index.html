@@ -6,15 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Шапка сайта -->
-    <header>
+    <header class="header-class">
       <nav>
         <a href="./index.html" class="logo"><span class="logo-web">Web</span>Studio</a>
         <ul class="site-nav list">
           <li>
-            <a href="./index.html" class="title">Студия</a>
+            <a href="./index.html" class="title current">Студия</a>
           </li>
           <li>
             <a href="./portfolio.html" class="title">Портфолио</a>
@@ -40,7 +46,7 @@
 
       <!-- Особенности -->
       <section>
-        <h2>Наши особенности</h2>
+        <h2 class="title our-features">Наши особенности</h2>
         <ul class="list">
           <li>
             <h3 class="title">Внимание к деталям</h3>
@@ -115,8 +121,8 @@
       <address>
         <ul>
           <li><a href="" lang="ru">г.Киев пр-т Леси Украинки, 26</a></li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+          <li><a class="contacts" href="mailto:info@example.com">info@example.com</a></li>
+          <li><a class="contacts" href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
       </address>
     </footer>

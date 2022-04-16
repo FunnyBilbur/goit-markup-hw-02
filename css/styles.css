@@ -1,3 +1,66 @@
 body{
-    background-color: rgb(230, 184, 176);
+    background-color: var(--background-color);
+    color: var(--secondary-text-color);
+}
+
+:root{
+    --primary-text-color:#ffffff;
+    --secondary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color: #2196F3;
+    --background-color: #E5E5E5;
+    --secondary-background-color:#2F303A;
+    --our-team-color:#F5F4FA;
+
+
+
+}
+.logo{
+    color: var(--title-text-color);
+}
+.logo-web{
+    color: var(--accent-color);
+}
+.title{
+    color: var(--title-text-color);
+}
+
+.section-title{
+    color: var(--primary-text-color);
+}
+
+.section-hero{
+    background-color: var(--secondary-background-color);
+}
+.accent-button{
+    background-color: var(--accent-color);
+    color: var(--primary-text-color);
+}
+.section-our-team{
+    background-color: var(--our-team-color);
+}
+.list{
+    list-style: none;
+}
+.contact a{
+    color: var(--secondary-text-color);
+}
+.contact a:hover, .contact a:focus {
+    color: var(--accent-color);
+}
+.site-nav .title:hover, .site-nav .title:focus{
+    color: var(--accent-color);
+}
+.contact-footer a{
+    color: var(--primary-text-color);
+    opacity: 0.6;
+}
+
+.contact-footer a:hover,.contact-footer a:focus{
+    color: var(--accent-color);
+    opacity: 0.6;
+}
+
+.footer-back{
+background-color: var(--secondary-background-color);
 }

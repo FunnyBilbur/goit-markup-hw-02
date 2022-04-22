@@ -1,3 +1,4 @@
+/* Настраиваю глобальный тег Body */
 body {
     background-color: var(--background-color);
     color: var(--secondary-text-color);
@@ -6,6 +7,7 @@ body {
     letter-spacing: 0.03em;
 }
 
+/* Селектор цветов через переменные */
 :root {
     --primary-text-color: #ffffff;
     --secondary-text-color: #757575;
@@ -106,13 +108,7 @@ body {
     text-decoration: none;
 }
 
-/* .contact.header a {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-} */
-
+/* Footer */
 .contact-footer a {
     color: var(--primary-text-color);
     opacity: 0.6;
@@ -134,6 +130,11 @@ body {
 
 .footer-back .contacts {
     opacity: 0.6;
+}
+
+.contact.footer a {
+    font-style: normal;
+    text-decoration: none;
 }
 
 /* Секция Особенности */
@@ -178,11 +179,50 @@ body {
 }
 
 /* Portfolio Page */
+
+/* Hiding H1 */
 .portfolio-content.hide {
     display: none;
 }
 
-.contact.footer a {
-    font-style: normal;
+/* Buttons Selector */
+.project-selector button {
+    background-color: var(--our-team-color);
+    color: var(--title-text-color);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    /* identical to box height, or 162% */
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Buttong Hover and Focus */
+.project-selector .title:hover,
+.project-selector .title:focus,
+.project-selector .title.current {
+    color: var(--primary-text-color);
+    background-color: var(--accent-color);
+}
+
+.project-links a {
     text-decoration: none;
+}
+
+.project-links h2 {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+
+    letter-spacing: 0.06em;
+}
+
+.project-links p {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.88;
+    /* identical to box height, or 188% */
 }

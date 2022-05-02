@@ -42,9 +42,6 @@ body {
     background-color: var(--primary-text-color);
 }
 
-.site-nav-list.current{
-    color: var(--accent-color);
-}
 .site-nav-list:hover,
 .site-nav-list:focus {
     color: var(--accent-color);
